@@ -5,13 +5,20 @@ This repository contains a deep learning model for recognizing hand gestures usi
 ## Project Structure
 
 - .ipynb_checkpoints/: Contains Jupyter notebook checkpoints.
-- model/: Stores the trained model files.
-- results/: Directory where model performance results, logs, and other outputs are stored.
-- resultsimg/: Folder for storing output images or visualizations.
 - utils/: Utility functions used for preprocessing and model operations.
 - gesture_recognition.py: Python script to run the hand gesture recognition model.
 - Hand_Gesture_Recognition.ipynb: Jupyter notebook used to train, test, and analyze the gesture recognition model.
 - requirements.txt: Contains all necessary dependencies to run the project.
+
+## Example Gesture Classification
+
+Here’s images of the demo:
+
+![Demo Image #1](demo.png 'Examples of Hand Gesture Classification #1')
+
+![Demo Image #2](demo-1.png 'Examples of Hand Gesture Classification #2')
+
+![Demo Image #3](demo-2.png 'Examples of Hand Gesture Classification #3')
 
 ## Getting Started
 
@@ -55,12 +62,6 @@ The results, such as predicted hand gestures and performance metrics, will be st
 ## Model Architecture
 
 The model is built using a Convolutional Neural Network (CNN) architecture that efficiently processes image data for hand gesture classification. It has been designed to recognize multiple hand gestures with real-time performance using TensorFlow.
-
-## Example Gesture Classification
-
-Here’s an example of a gesture classified by the model:
-
-![Example Gesture](resultsimg/example_gesture.png 'Example of Hand Gesture Classification')
 
 ## Requirements
 
